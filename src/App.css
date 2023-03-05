@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,177 @@
     transform: rotate(360deg);
   }
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+   display: flex;
+   justify-content: center;
+}
+ul  {
+  list-style-type: none;
+ 
+ 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+ align-items: center  ;
+ position: relative;
+ margin:0;
+ padding:0;
+
+
+  
+}
+ul li  {
+  margin:20PX;
+font-size: 20PX;
+
+
+ 
+ 
+ 
+}
+a{text-decoration: none;
+  color: black;
+ 
+}
+ 
+body  {
+  background-image: linear-gradient( white,white,white,#a8b94e,  rgb(243, 243, 94),   white,white);
+
+
+}
+
+img{margin-left: 600px;
+
+border-radius: 800px;
+height: 300px;
+opacity: 0.5;}
+
+ p{margin-left:100px;
+
+width:800px;
+height: 300px;
+
+text-overflow: clip; 
+
+ border-color: beiges;
+ 
+
+ }
+a:hover{
+  background-color:whitesmoke;
+  opacity: 0.5;
+  
+}
+
+ 
+
+
+.paraf{width:500px;
+}
+.para{width:200px;
+  }
+.contain{display:inline-flex;
+  width:1000px;
+  margin-left: 400px
+;
+}
+btn{display: none;}
+@media screen and (max-width:500PX){
+.list {
+    flex-direction: column;
+    height: 200PX;
+
+
+}
+.item:nth-child(1) {
+    border-top:1px solid #fff;
+    margin-top: 50px;
+}
+
+.item {
+    height: 50PX;
+    width:100%;
+    border-bottom: 1px SOLID  #fff;
+    line-height: 50PX;
+}
+.btn {
+    display: block;
+    position:absolute;
+    right:10px;
+    top:10px;
+    color:#333;
+    cursor:pointer;
+}
+
+
+}input[type="text"] {
+  width: 700PX;
+  height: 50px;
+border-radius: 500PX;
+
+margin-left:300PX;
+margin-top: 50px;
+border-color: black;
+
+}
+.placeholder {
+  color: green;
+  margin-left: 400px;
+}
+ .cherch {
+  
+  margin-top: 10PX;
+  margin-left: 1200PX;
+  width: 1000PX;
+
+
+ }
+ .icon{
+  margin: 10PX;
+ }
+
+.con {
+  margin-left: 500PX;
+  line-height: 2;
+  border-radius: 300PX;
+ 
+
+  
+}
+label{
+  margin-right: 200PX ;
+}
+input{border-radius: 300PX;
+  opacity:initial;
+  width: 300PX
+}
+.pom{opacity:initial;
+  width: 400px;
+
+}
+ .po{
+  transform: translateX(-600px);
+  opacity:initial;
+ }
+ .p{
+  transform: translatex(-500);
+  opacity:initial;
+ }
+ p:hover{
+
+  font-size:  20PX;
+ border-color: antiquewhite;
+  border-style: dashed;
+  border-width: 3PX;
+ }
+ .hi{
+color:black;
+background-color: #a8b94e;
+ }
+ .hi:hover{background-color: white;font-size: 50PX;color:#a8b94e;background-color: none;}
